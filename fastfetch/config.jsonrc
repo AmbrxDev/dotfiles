@@ -1,0 +1,7 @@
+    "logo": {
+        "color": {"1": "pink"},
+        "padding": {
+          "top": 1,
+          "left": 2
+        }
+    },

@@ -1,0 +1,471 @@
+00:00:00.000224 main     VirtualBox XPCOM Server 7.2.4 r170995 linux.amd64 (Oct 22 2025 16:59:14) release log
+00:00:00.000226 main     Log opened 2025-11-08T05:13:28.718113000Z
+00:00:00.000227 main     Build Type: release
+00:00:00.000228 main     OS Product: Linux
+00:00:00.000229 main     OS Release: 6.12.57-1-lts
+00:00:00.000229 main     OS Version: #1 SMP PREEMPT_DYNAMIC Sun, 02 Nov 2025 15:08:33 +0000
+00:00:00.000244 main     DMI Product Name: 20N3SB1301
+00:00:00.000249 main     DMI Product Version: ThinkPad T490
+00:00:00.000252 main     Firmware type: UEFI
+00:00:00.000585 main     Secure Boot: Disabled
+00:00:00.000613 main     Host RAM: 15615MB (15.2GB) total, 13534MB (13.2GB) available
+00:00:00.000615 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000616 main     Process ID: 10481
+00:00:00.000616 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.005334 main     IPC socket path: /tmp/.vbox-ambr-ipc/ipcd
+00:00:00.009768 DCon01   VirtualBox: object creation starts
+00:00:00.009820 DCon01   Home directory: '/home/_/.config/VirtualBox'
+00:00:00.009900 DCon01   Loading settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.011361 DCon01   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0aaa)
+00:00:00.011471 DCon01   Successfully initialised host USB using sysfs
+00:00:00.020066 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.027277 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for enp0s20f0u4c4i2: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.028039 DCon01   HostDnsMonitor: initializing
+00:00:00.028326 DCon01   NAT: resolv.conf: nameserver 172.20.10.1
+00:00:00.028332 DCon01   NAT: resolv.conf: nameserver 192.168.55.1
+00:00:00.028334 DCon01   NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:00:00.028335 DCon01   NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:00:00.028345 DCon01   HostDnsMonitor: updating information
+00:00:00.028353 DCon01   HostDnsMonitor: old information
+00:00:00.028354 DCon01     no server entries
+00:00:00.028355 DCon01     no domain set
+00:00:00.028356 DCon01     no search string entries
+00:00:00.028357 DCon01   HostDnsMonitor: new information
+00:00:00.028358 DCon01     server 1: 172.20.10.1
+00:00:00.028359 DCon01     server 2: 192.168.55.1
+00:00:00.028360 DCon01     server 3: fe80::866e:bcff:fef9:6f31%wlan0
+00:00:00.028361 DCon01     no domain set
+00:00:00.028362 DCon01     no search string entries
+00:00:00.030051 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.030113 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.030811 DCon01   VirtualBox: object created
+00:00:00.926643 DCon03   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.941429 DCon03   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:00:06.994073 DCon03   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:07.368688 DCon03   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:07.374274 DCon03   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:00:12.018387 DCon02   Unattended: RTVfsQueryPathInfo(, '\OS2IMAGE/DISK_0/OS2LDR' (from OS2SE20.SRC),) -> VERR_PATH_NOT_FOUND, fMode=0x0
+00:00:41.554937 DCon01   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:41.571061 DCon01   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:00:43.544192 DCon05   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:43.550023 DCon05   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:01:23.673316 createBase Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:23.688397 createBase Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:01:23.702480 DCon02   Platform architecture set to 'x86'
+00:01:23.702780 DCon02   Platform architecture set to 'x86'
+00:01:23.702808 DCon02   Platform architecture set to 'x86'
+00:01:23.703977 DCon02   Platform architecture set to 'x86'
+00:01:23.709858 DCon02   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:01:23.721512 DCon02   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:01:23.721752 DCon02   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:23.724729 DCon02   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:01:23.728922 DCon02   Platform architecture set to 'x86'
+00:01:23.735423 DCon06   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:23.738317 DCon06   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:01:23.739363 DCon02   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:01:23.741920 DCon02   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:01:23.746740 DCon06   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:23.749508 DCon06   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:01:23.750329 DCon06   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:01:23.752863 DCon06   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:01:23.753837 DCon01   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:01:23.756434 DCon01   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:01:23.843327 DCon07   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:23.941321 DCon07   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:26.956254 DCon07   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:26.971623 DCon07   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:01:30.238479 DCon08   Launched VM: 3959460736 pid: 10777 (0x2a19) frontend: GUI/Qt name: gentoo2
+00:01:30.308904 DCon07   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:30.333724 DCon07   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:30.486606 DCon01   Platform architecture set to 'x86'
+00:01:30.497645 DCon06   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:30.502023 DCon12   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:30.650567 DCon12   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:30.664951 DCon12   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:01:31.156936 DCon12   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:01:31.188427 DCon07   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:31.198302 DCon07   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for enp0s20f0u4c4i2: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:31.244365 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:31.265259 DCon01   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:01:31.268844 DCon08   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:01:31.356905 DCon08   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:01:31.358292 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:01:31.359242 DCon01   HostDnsMonitorProxy::GetDomainName: no domain set
+00:01:31.359312 DCon01   HostDnsMonitorProxy::GetNameServers:
+00:01:31.359315 DCon01     name server 1: 172.20.10.1
+00:01:31.359317 DCon01     name server 2: 192.168.55.1
+00:01:31.359318 DCon01     name server 3: fe80::866e:bcff:fef9:6f31%wlan0
+00:01:31.359389 DCon01   HostDnsMonitorProxy::GetSearchStrings:
+00:01:31.359392 DCon01     no search string entries
+00:01:31.381199 DCon14   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:01:31.407960 DCon02   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:31.423609 DCon02   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:31.571440 DCon14   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:01:31.577747 DCon14   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:01:31.584823 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:31.592106 DCon14   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:39.751492 DCon11   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:39.757136 DCon11   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:01:42.165534 DCon02   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:42.167519 DCon08   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:01:42.179912 DCon02   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:01:42.179923 DCon08   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:01:42.188364 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:42.199705 DCon11   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:44.524932 DCon01   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:01:44.530660 DCon01   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:01:44.531725 DCon07   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:44.533591 DCon07   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:01:44.539323 DCon08   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:44.552865 DCon08   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:48.851166 DCon11   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:48.853416 DCon02   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:01:48.865669 DCon02   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:01:48.865682 DCon11   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:01:48.875197 DCon11   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:48.886122 DCon15   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:53.252862 DCon16   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:01:53.267478 DCon16   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:01:53.274827 DCon12   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:53.286079 DCon14   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:56.265134 DCon14   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:01:56.270769 DCon14   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:01:56.279841 DCon15   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:56.290991 DCon15   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:59.269367 DCon02   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:01:59.275136 DCon02   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:01:59.282447 DCon11   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:59.293680 DCon14   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:12:33.119433 DCon27   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:12:33.125244 DCon27   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:12:33.134114 DCon14   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:12:33.154370 DCon14   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:12:33.452539 DCon14   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:12:33.458174 DCon14   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:12:33.466235 DCon22   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:12:33.478226 DCon27   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:12:33.821634 DCon27   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:12:33.827367 DCon27   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:12:33.835098 DCon22   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:12:33.846788 DCon22   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:12:34.551875 DCon22   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:12:34.566249 DCon22   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:12:34.573558 DCon32   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:12:34.588736 DCon30   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:12:35.137941 DCon30   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:12:35.143548 DCon30   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:12:35.150579 DCon29   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:12:35.161700 DCon29   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:12:36.752207 DCon22   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:12:36.766517 DCon22   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:12:36.775362 DCon27   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:12:36.792756 DCon27   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:12:38.151763 DCon22   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:12:38.166094 DCon22   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:12:38.175838 DCon14   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:12:38.191002 DCon25   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:12:40.255150 DCon25   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:12:40.260929 DCon25   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:12:40.269354 DCon27   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:12:40.280460 DCon26   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:13:11.836395 dns-monitor NAT: resolv.conf: nameserver 192.168.55.1
+00:13:11.836414 dns-monitor NAT: resolv.conf: nameserver 172.20.10.1
+00:13:11.836418 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:13:11.836419 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:13:11.836430 dns-monitor HostDnsMonitor: updating information
+00:13:11.836443 dns-monitor HostDnsMonitor: old information
+00:13:11.836445 dns-monitor   server 1: 172.20.10.1
+00:13:11.836447 dns-monitor   server 2: 192.168.55.1
+00:13:11.836448 dns-monitor   server 3: fe80::866e:bcff:fef9:6f31%wlan0
+00:13:11.836450 dns-monitor   no domain set
+00:13:11.836451 dns-monitor   no search string entries
+00:13:11.836452 dns-monitor HostDnsMonitor: new information
+00:13:11.836453 dns-monitor   server 1: 192.168.55.1
+00:13:11.836455 dns-monitor   server 2: 172.20.10.1
+00:13:11.836456 dns-monitor   server 3: fe80::866e:bcff:fef9:6f31%wlan0
+00:13:11.836458 dns-monitor   no domain set
+00:13:11.836459 dns-monitor   no search string entries
+00:13:11.837627 DCon31   HostDnsMonitorProxy::GetDomainName: no domain set
+00:13:11.837745 DCon31   HostDnsMonitorProxy::GetNameServers:
+00:13:11.837752 DCon31     name server 1: 192.168.55.1
+00:13:11.837755 DCon31     name server 2: 172.20.10.1
+00:13:11.837756 DCon31     name server 3: fe80::866e:bcff:fef9:6f31%wlan0
+00:13:11.837888 DCon31   HostDnsMonitorProxy::GetSearchStrings:
+00:13:11.837895 DCon31     no search string entries
+00:13:11.839535 dns-monitor NAT: resolv.conf: nameserver 192.168.55.1
+00:13:11.839550 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:13:11.839553 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:13:11.839577 dns-monitor HostDnsMonitor: updating information
+00:13:11.839587 dns-monitor HostDnsMonitor: old information
+00:13:11.839589 dns-monitor   server 1: 192.168.55.1
+00:13:11.839591 dns-monitor   server 2: 172.20.10.1
+00:13:11.839592 dns-monitor   server 3: fe80::866e:bcff:fef9:6f31%wlan0
+00:13:11.839594 dns-monitor   no domain set
+00:13:11.839595 dns-monitor   no search string entries
+00:13:11.839597 dns-monitor HostDnsMonitor: new information
+00:13:11.839598 dns-monitor   server 1: 192.168.55.1
+00:13:11.839599 dns-monitor   server 2: fe80::866e:bcff:fef9:6f31%wlan0
+00:13:11.839601 dns-monitor   no domain set
+00:13:11.839602 dns-monitor   no search string entries
+00:13:11.840067 DCon31   HostDnsMonitorProxy::GetDomainName: no domain set
+00:13:11.840154 DCon31   HostDnsMonitorProxy::GetNameServers:
+00:13:11.840157 DCon31     name server 1: 192.168.55.1
+00:13:11.840158 DCon31     name server 2: fe80::866e:bcff:fef9:6f31%wlan0
+00:13:11.840242 DCon31   HostDnsMonitorProxy::GetSearchStrings:
+00:13:11.840244 DCon31     no search string entries
+00:15:23.529139 USBPROXY USBProxyBackendLinux: Device 05ac:12a8 (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-4//device:/dev/vboxusb/001/009) isn't accessible. giving udev a few seconds to fix this...
+00:15:24.653596 dns-monitor NAT: resolv.conf: nameserver 192.168.55.1
+00:15:24.653611 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:15:24.653613 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:15:24.653616 dns-monitor NAT: resolv.conf: nameserver 172.20.10.1
+00:15:24.653642 dns-monitor HostDnsMonitor: updating information
+00:15:24.653656 dns-monitor HostDnsMonitor: old information
+00:15:24.653657 dns-monitor   server 1: 192.168.55.1
+00:15:24.653659 dns-monitor   server 2: fe80::866e:bcff:fef9:6f31%wlan0
+00:15:24.653661 dns-monitor   no domain set
+00:15:24.653663 dns-monitor   no search string entries
+00:15:24.653664 dns-monitor HostDnsMonitor: new information
+00:15:24.653666 dns-monitor   server 1: 192.168.55.1
+00:15:24.653668 dns-monitor   server 2: fe80::866e:bcff:fef9:6f31%wlan0
+00:15:24.653669 dns-monitor   server 3: 172.20.10.1
+00:15:24.653671 dns-monitor   no domain set
+00:15:24.653672 dns-monitor   no search string entries
+00:15:24.654471 DCon26   HostDnsMonitorProxy::GetDomainName: no domain set
+00:15:24.654595 DCon26   HostDnsMonitorProxy::GetNameServers:
+00:15:24.654602 DCon26     name server 1: 192.168.55.1
+00:15:24.654604 DCon26     name server 2: fe80::866e:bcff:fef9:6f31%wlan0
+00:15:24.654606 DCon26     name server 3: 172.20.10.1
+00:15:24.654732 DCon26   HostDnsMonitorProxy::GetSearchStrings:
+00:15:24.654743 DCon26     no search string entries
+00:15:24.820996 dns-monitor NAT: resolv.conf: nameserver 172.20.10.1
+00:15:24.821007 dns-monitor NAT: resolv.conf: nameserver 192.168.55.1
+00:15:24.821010 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:15:24.821012 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:15:24.821022 dns-monitor HostDnsMonitor: updating information
+00:15:24.821024 dns-monitor HostDnsMonitor: old information
+00:15:24.821025 dns-monitor   server 1: 192.168.55.1
+00:15:24.821027 dns-monitor   server 2: fe80::866e:bcff:fef9:6f31%wlan0
+00:15:24.821028 dns-monitor   server 3: 172.20.10.1
+00:15:24.821030 dns-monitor   no domain set
+00:15:24.821031 dns-monitor   no search string entries
+00:15:24.821032 dns-monitor HostDnsMonitor: new information
+00:15:24.821033 dns-monitor   server 1: 172.20.10.1
+00:15:24.821035 dns-monitor   server 2: 192.168.55.1
+00:15:24.821036 dns-monitor   server 3: fe80::866e:bcff:fef9:6f31%wlan0
+00:15:24.821037 dns-monitor   no domain set
+00:15:24.821038 dns-monitor   no search string entries
+00:15:24.822721 DCon26   HostDnsMonitorProxy::GetDomainName: no domain set
+00:15:24.822934 DCon26   HostDnsMonitorProxy::GetNameServers:
+00:15:24.822938 DCon26     name server 1: 172.20.10.1
+00:15:24.822941 DCon26     name server 2: 192.168.55.1
+00:15:24.822944 DCon26     name server 3: fe80::866e:bcff:fef9:6f31%wlan0
+00:15:24.823096 DCon26   HostDnsMonitorProxy::GetSearchStrings:
+00:15:24.823100 DCon26     no search string entries
+00:21:40.008095 dns-monitor NAT: resolv.conf: nameserver 192.168.55.1
+00:21:40.008116 dns-monitor NAT: resolv.conf: nameserver 172.20.10.1
+00:21:40.008122 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:21:40.008125 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:21:40.008137 dns-monitor HostDnsMonitor: updating information
+00:21:40.008156 dns-monitor HostDnsMonitor: old information
+00:21:40.008159 dns-monitor   server 1: 172.20.10.1
+00:21:40.008162 dns-monitor   server 2: 192.168.55.1
+00:21:40.008165 dns-monitor   server 3: fe80::866e:bcff:fef9:6f31%wlan0
+00:21:40.008167 dns-monitor   no domain set
+00:21:40.008170 dns-monitor   no search string entries
+00:21:40.008172 dns-monitor HostDnsMonitor: new information
+00:21:40.008174 dns-monitor   server 1: 192.168.55.1
+00:21:40.008177 dns-monitor   server 2: 172.20.10.1
+00:21:40.008179 dns-monitor   server 3: fe80::866e:bcff:fef9:6f31%wlan0
+00:21:40.008182 dns-monitor   no domain set
+00:21:40.008184 dns-monitor   no search string entries
+00:21:40.008952 DCon48   HostDnsMonitorProxy::GetDomainName: no domain set
+00:21:40.009059 DCon48   HostDnsMonitorProxy::GetNameServers:
+00:21:40.009068 DCon48     name server 1: 192.168.55.1
+00:21:40.009071 DCon48     name server 2: 172.20.10.1
+00:21:40.009073 DCon48     name server 3: fe80::866e:bcff:fef9:6f31%wlan0
+00:21:40.009174 DCon48   HostDnsMonitorProxy::GetSearchStrings:
+00:21:40.009179 DCon48     no search string entries
+00:21:40.011228 dns-monitor NAT: resolv.conf: nameserver 192.168.55.1
+00:21:40.011242 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:21:40.011245 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:21:40.011255 dns-monitor HostDnsMonitor: updating information
+00:21:40.011257 dns-monitor HostDnsMonitor: old information
+00:21:40.011259 dns-monitor   server 1: 192.168.55.1
+00:21:40.011261 dns-monitor   server 2: 172.20.10.1
+00:21:40.011262 dns-monitor   server 3: fe80::866e:bcff:fef9:6f31%wlan0
+00:21:40.011264 dns-monitor   no domain set
+00:21:40.011265 dns-monitor   no search string entries
+00:21:40.011267 dns-monitor HostDnsMonitor: new information
+00:21:40.011269 dns-monitor   server 1: 192.168.55.1
+00:21:40.011270 dns-monitor   server 2: fe80::866e:bcff:fef9:6f31%wlan0
+00:21:40.011272 dns-monitor   no domain set
+00:21:40.011273 dns-monitor   no search string entries
+00:21:40.011745 DCon48   HostDnsMonitorProxy::GetDomainName: no domain set
+00:21:40.011839 DCon48   HostDnsMonitorProxy::GetNameServers:
+00:21:40.011843 DCon48     name server 1: 192.168.55.1
+00:21:40.011846 DCon48     name server 2: fe80::866e:bcff:fef9:6f31%wlan0
+00:21:40.011969 DCon48   HostDnsMonitorProxy::GetSearchStrings:
+00:21:40.011976 DCon48     no search string entries
+00:21:44.794847 dns-monitor NAT: resolv.conf: nameserver 192.168.55.1
+00:21:44.794863 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:21:44.794866 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:21:44.794869 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %enp0s31f6
+00:21:44.794871 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:21:44.794881 dns-monitor HostDnsMonitor: updating information
+00:21:44.794883 dns-monitor HostDnsMonitor: old information
+00:21:44.794885 dns-monitor   server 1: 192.168.55.1
+00:21:44.794887 dns-monitor   server 2: fe80::866e:bcff:fef9:6f31%wlan0
+00:21:44.794889 dns-monitor   no domain set
+00:21:44.794890 dns-monitor   no search string entries
+00:21:44.794892 dns-monitor HostDnsMonitor: new information
+00:21:44.794893 dns-monitor   server 1: 192.168.55.1
+00:21:44.794895 dns-monitor   server 2: fe80::866e:bcff:fef9:6f31%wlan0
+00:21:44.794897 dns-monitor   server 3: fe80::866e:bcff:fef9:6f31%enp0s31f6
+00:21:44.794898 dns-monitor   no domain set
+00:21:44.794900 dns-monitor   no search string entries
+00:21:44.796173 DCon26   HostDnsMonitorProxy::GetDomainName: no domain set
+00:21:44.796318 DCon53   HostDnsMonitorProxy::GetNameServers:
+00:21:44.796326 DCon53     name server 1: 192.168.55.1
+00:21:44.796329 DCon53     name server 2: fe80::866e:bcff:fef9:6f31%wlan0
+00:21:44.796337 DCon53     name server 3: fe80::866e:bcff:fef9:6f31%enp0s31f6
+00:21:44.796555 DCon53   HostDnsMonitorProxy::GetSearchStrings:
+00:21:44.796558 DCon53     no search string entries
+00:21:47.928922 dns-monitor NAT: resolv.conf: nameserver 192.168.55.1
+00:21:47.928936 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:21:47.928937 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:21:47.928940 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %enp0s31f6
+00:21:47.928940 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:21:47.928951 dns-monitor HostDnsMonitor: updating information
+00:21:47.928953 dns-monitor HostDnsMonitor: unchanged
+00:21:50.899642 dns-monitor NAT: resolv.conf: nameserver 192.168.55.1
+00:21:50.899655 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %wlan0
+00:21:50.899657 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:21:50.899659 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %enp0s31f6
+00:21:50.899660 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:21:50.899669 dns-monitor HostDnsMonitor: updating information
+00:21:50.899671 dns-monitor HostDnsMonitor: unchanged
+00:22:45.153547 DCon52   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:22:45.167979 DCon52   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:22:45.175945 DCon37   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:22:45.187524 DCon54   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:23:11.750690 DCon55   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:23:11.765133 DCon55   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:23:12.830947 DCon55   Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:23:12.832898 DCon51   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:23:12.845344 DCon55   Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+00:23:12.845358 DCon51   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:23:12.855150 DCon55   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:23:12.866025 DCon51   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:23:31.172138 DCon26   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:23:31.186749 DCon26   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:23:31.196154 DCon48   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:23:31.210411 DCon48   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:23:36.926462 dns-monitor NAT: resolv.conf: nameserver 192.168.55.1
+00:23:36.926476 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %enp0s31f6
+00:23:36.926478 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+00:23:36.926494 dns-monitor HostDnsMonitor: updating information
+00:23:36.926508 dns-monitor HostDnsMonitor: old information
+00:23:36.926509 dns-monitor   server 1: 192.168.55.1
+00:23:36.926510 dns-monitor   server 2: fe80::866e:bcff:fef9:6f31%wlan0
+00:23:36.926511 dns-monitor   server 3: fe80::866e:bcff:fef9:6f31%enp0s31f6
+00:23:36.926512 dns-monitor   no domain set
+00:23:36.926513 dns-monitor   no search string entries
+00:23:36.926514 dns-monitor HostDnsMonitor: new information
+00:23:36.926515 dns-monitor   server 1: 192.168.55.1
+00:23:36.926516 dns-monitor   server 2: fe80::866e:bcff:fef9:6f31%enp0s31f6
+00:23:36.926517 dns-monitor   no domain set
+00:23:36.926517 dns-monitor   no search string entries
+00:23:36.927549 DCon57   HostDnsMonitorProxy::GetDomainName: no domain set
+00:23:36.927771 DCon57   HostDnsMonitorProxy::GetNameServers:
+00:23:36.927777 DCon57     name server 1: 192.168.55.1
+00:23:36.927779 DCon57     name server 2: fe80::866e:bcff:fef9:6f31%enp0s31f6
+00:23:36.927918 DCon57   HostDnsMonitorProxy::GetSearchStrings:
+00:23:36.927930 DCon57     no search string entries
+00:23:46.653076 DCon57   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:23:46.667381 DCon57   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:23:46.676376 DCon63   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:23:46.691311 DCon63   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:28:46.153149 DCon69   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:28:46.167285 DCon69   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:28:46.175375 DCon70   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:28:46.190422 DCon70   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:29:03.454259 DCon73   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:29:03.459924 DCon73   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:29:03.467948 DCon64   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:29:03.483293 DCon64   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:30:40.150892 DCon78   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:30:40.156605 DCon78   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:30:40.164579 DCon78   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:30:40.175148 DCon78   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:30:45.331506 DCon79   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:30:45.337683 DCon79   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:30:45.345332 DCon79   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:30:45.357706 DCon77   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:45:39.753120 DCon103  Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:45:39.767294 DCon103  Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:45:39.776108 DCon96   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:45:39.787200 DCon103  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:45:40.581150 DCon106  Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:45:40.586681 DCon106  Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:45:40.594309 DCon98   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:45:40.604954 DCon98   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:45:42.269334 DCon96   Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:45:42.275095 DCon96   Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:45:42.283095 DCon106  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:45:42.295068 DCon106  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:53:20.552582 DCon111  Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:53:20.558393 DCon111  Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:53:20.569778 DCon124  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:53:20.587390 DCon112  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:53:20.886736 DCon111  Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+00:53:20.892496 DCon111  Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+00:53:20.901569 DCon119  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:53:20.913364 DCon125  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:05:59.482660 DCon139  Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+01:05:59.488346 DCon139  Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+01:05:59.498368 DCon148  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:05:59.509377 DCon135  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:06:00.871320 DCon135  Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+01:06:00.885533 DCon135  Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+01:06:00.895582 DCon139  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:06:00.910137 DCon146  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:10:10.666213 USBPROXY USBProxyBackendLinux: Device 05ac:12a8 (sysfs:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-4//device:/dev/vboxusb/001/010) isn't accessible. giving udev a few seconds to fix this...
+01:10:12.578672 dns-monitor NAT: resolv.conf: nameserver 192.168.55.1
+01:10:12.578687 dns-monitor NAT: resolv.conf: FIXME: ignoring IPv6 zone %enp0s31f6
+01:10:12.578689 dns-monitor NAT: resolv.conf: nameserver fe80::866e:bcff:fef9:6f31
+01:10:12.578692 dns-monitor NAT: resolv.conf: nameserver 172.20.10.1
+01:10:12.578701 dns-monitor HostDnsMonitor: updating information
+01:10:12.578716 dns-monitor HostDnsMonitor: old information
+01:10:12.578718 dns-monitor   server 1: 192.168.55.1
+01:10:12.578719 dns-monitor   server 2: fe80::866e:bcff:fef9:6f31%enp0s31f6
+01:10:12.578721 dns-monitor   no domain set
+01:10:12.578722 dns-monitor   no search string entries
+01:10:12.578724 dns-monitor HostDnsMonitor: new information
+01:10:12.578725 dns-monitor   server 1: 192.168.55.1
+01:10:12.578727 dns-monitor   server 2: fe80::866e:bcff:fef9:6f31%enp0s31f6
+01:10:12.578728 dns-monitor   server 3: 172.20.10.1
+01:10:12.578730 dns-monitor   no domain set
+01:10:12.578731 dns-monitor   no search string entries
+01:10:12.579313 DCon153  HostDnsMonitorProxy::GetDomainName: no domain set
+01:10:12.579394 DCon153  HostDnsMonitorProxy::GetNameServers:
+01:10:12.579399 DCon153    name server 1: 192.168.55.1
+01:10:12.579402 DCon153    name server 2: fe80::866e:bcff:fef9:6f31%enp0s31f6
+01:10:12.579404 DCon153    name server 3: 172.20.10.1
+01:10:12.579487 DCon153  HostDnsMonitorProxy::GetSearchStrings:
+01:10:12.579491 DCon153    no search string entries
+01:10:30.376706 DCon151  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:10:30.415907 DCon155  Saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox" with version "1.19-linux"
+01:10:30.418034 DCon155  Finished saving settings file "/home/_/VirtualBox VMs/gentoo2/gentoo2.vbox"
+01:10:30.421797 DCon155  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+01:10:30.433654 DCon151  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:10:30.435245 DCon151  ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+01:10:30.490102 DCon151  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+01:10:31.997797 DCon139  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+01:10:41.248880 DCon152  Saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+01:10:41.254470 DCon152  Finished saving settings file "/home/_/.config/VirtualBox/VirtualBox.xml"
+01:10:48.266099 main     VirtualBox: object deletion starts
+01:10:48.266135 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/_/VirtualBox VMs/gentoo2/gentoo2.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:10:48.266588 main     HostDnsMonitor: shutting down ...
+01:10:48.277714 main     HostDnsMonitor: shut down
+01:10:48.302093 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:10:48.302185 main     VirtualBox: object deleted

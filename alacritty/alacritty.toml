@@ -1,0 +1,82 @@
+[window]
+
+opacity = 0.5
+
+[font]
+size = 6.5
+
+[font.offset]
+x=0
+y=0
+
+[font.normal]
+family = "hack"
+style = "RegularSolids"
+
+[font.bold]
+family = "hack"
+style = "BoldSolids"
+
+[font.italic]
+family = "hack"
+style = "RegularOutlinedCF"
+
+[font.bold_italic]
+family = "hack"
+style = "FramedSolidsCF"
+
+[colors]
+
+[colors.primary]
+foreground = "#ebdbb2"
+background = "#211d1d"
+#cursor = { text = "#a4a1a1", cursor = "#a4a1a1" }
+
+[colors.normal]
+
+black     = "#000000"
+red       = "#c34043"
+green     = "#76946a"
+yellow    = "#c0a36e"
+blue      = "#7e9cd8"
+magenta   = "#957fb8"
+cyan      = "#6a9589"
+white     = "#DDDDDD"
+
+#black = "#9d5b61"
+#red = "#838d69"
+#green = "#b38d6a"
+#yellow = "#606d84"
+#blue = "#766577"
+#magenta = "#808fa0"
+#cyan = "#9c9a9a"
+#white = "#d8d8d8"
+
+[colors.bright]
+
+black     = "#424149"
+red       = "#e82424"
+green     = "#98bb6c"
+yellow    = "#e6c384"
+blue      = "#7fb4ca"
+magenta   = "#938aa9"
+cyan      = "#7aa89f"
+white     = "#DDDDDD"
+
+#black = "#141414"
+#red = "#9d5b61"
+#green = "#838d69"
+#yellow = "#b38d6a"
+#blue = "#606d84"
+#magenta = "#766577"
+#cyan = "#9c9a9a"
+#white = "#d8d8d8"
+
+
+
+
+
+[keyboard]
+bindings = [
+{ key = "Equals", mods = "Super", action = "IncreaseFontSize" },
+{ key = "Minus", mods = "Super",  action = "DecreaseFontSize" },]
