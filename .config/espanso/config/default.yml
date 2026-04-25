@@ -1,0 +1,11 @@
+matches:
+  - trigger: "lmao"
+    replace: "lmeow"
+
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"

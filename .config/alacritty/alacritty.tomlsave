@@ -1,0 +1,56 @@
+[window]
+opacity = 0.9
+decorations = "none"
+
+[font]
+size = 7.0
+
+[font.bold]
+family = "Hack Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Hack Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Hack Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "Hack Nerd Font Mono"
+style = "Regular"
+
+[colors]
+
+[colors.primary]
+foreground = "#ffffff"
+background = "#141414"
+#cursor = { text = "#a4a1a1", cursor = "#a4a1a1" }
+
+[colors.normal]
+black = "#9d5b61"
+red = "#838d69"
+green = "#b38d6a"
+yellow = "#606d84"
+blue = "#766577"
+magenta = "#808fa0"
+cyan = "#9c9a9a"
+white = "#d8d8d8"
+
+[colors.bright]
+black = "#141414"
+red = "#9d5b61"
+green = "#838d69"
+yellow = "#b38d6a"
+blue = "#606d84"
+magenta = "#766577"
+cyan = "#9c9a9a"
+white = "#d8d8d8"
+
+
+
+[keyboard]
+bindings = [
+{ key = "Equals", mods = "Super", action = "IncreaseFontSize" },
+{ key = "Minus", mods = "Super",  action = "DecreaseFontSize" },]
