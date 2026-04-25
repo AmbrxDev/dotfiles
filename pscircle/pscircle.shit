@@ -1,0 +1,41 @@
+#!/bin/bash
+set -e
+
+output=pscircle.png
+
+pscircle --output=$output \
+	--max-children=50 \
+	--cpulist-center=600:100 \
+	--memlist-center=600:-100 \
+	--output-width=1920 \
+	--output-height=1080 \
+	--tree-radius-increment=90 \
+	--dot-radius=3 \
+	--link-width=1.3 \
+	--tree-font-size=10 \
+	--toplists-font-size=11 \
+	--toplists-bar-width=30 \
+	--toplists-row-height=15 \
+	--toplists-bar-height=3 \
+	--background-color=1e2226 \
+	--link-color-min=9d5b61 \
+	--link-color-max=9d5b61 \
+	--dot-color-min=838d69 \
+	--dot-color-max=838d69 \
+	--tree-font-size=11 \
+	--tree-font-color=d8d8d8 \
+	--tree-font-face="Hack Nerd Font Mono" \
+	--toplists-row-height=20 \
+	--toplists-font-size=15 \
+	--toplists-font-color=C8D2D7 \
+	--toplists-pid-font-color=7B9098 \
+	--toplists-font-face="Hack Nerd Font Mono" \
+	--toplists-bar-height=7 \
+	--toplists-bar-background=444444 \
+	--toplists-bar-color=a7a7a7 \
+
+
+if command -v feh >/dev/null; then
+	feh --no-fehbg --bg-fill $output
+	rm $output
+fi

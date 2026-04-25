@@ -11,3 +11,5 @@
 !.config/espanso/**
 !.config/alacritty/
 !.config/alacritty/**
+!pscircle/
+!pscircle/**

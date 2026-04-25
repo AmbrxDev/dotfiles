@@ -1,0 +1,13 @@
+[Unit]
+Description=Runs pscircle to continuously update desktop wallpaper
+After=graphical.target
+
+[Service]
+Type=simple
+Environment=DISPLAY=:0
+ExecStart=/bin/bash -c 'while true; do ~/pscircle/pscircle.sh; sleep 1; done'
+Restart=always
+
+[Install]
+WantedBy=default.target
+
