@@ -166,7 +166,8 @@ visualizer_type = ellipse
 #visualizer_type = "spectrum"
  
 #visualizer_look = ●▮
-visualizer_look = "▉▋"
+visualizer_look = "★★"
+#visualizer_look = "▉▋"
 #visualizer_look = "▋▋"
 #visualizer_look = "◆▋"
 #visualizer_look = "◈░"

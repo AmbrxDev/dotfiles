@@ -196,3 +196,6 @@ export PATH=$PATH:/home/_/.cargo/bincat
 export PATH=$PATH:/usr/local/go/bin
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH=$PATH:/var/lib/snapd/snap/bin
+export PATH=$HOME/.npm-global/bin:$PATH
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"

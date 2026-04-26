@@ -60,5 +60,3 @@ bindings = [
   { key = "Equals", mods = "Super", action = "IncreaseFontSize" },
   { key = "Minus",  mods = "Super", action = "DecreaseFontSize" },
 ]
-
-
