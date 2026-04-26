@@ -13,3 +13,5 @@
 !.config/alacritty/**
 !pscircle/
 !pscircle/**
+!.nccpcpp/config
+!.mpd/mpd.conf
